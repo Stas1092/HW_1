@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 12345;
+        int ticketPrice = 12345;
 
-        int y = 20;
+        int bonusMilePrice = 20;
 
-        int z = (x / y);
+        int bonusMiles = (ticketPrice / bonusMilePrice);
 
-        System.out.println("Бонусных миль: " + z);
+        System.out.println("Бонусных миль: " + bonusMiles);
     }
 }
